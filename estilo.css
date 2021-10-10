@@ -1,12 +1,21 @@
 
 /* Estilo para a página "Home" */
 
-body{
-    background-color: gray;
-    font-family: sans-serif;
+html
+{ 
 }
 
-#cabecalho{
+body{
+    background-color: #808080;
+    font-family: sans-serif;
+	   display: inline;
+		  margin-bottom: 0px;
+		 
+
+
+}
+
+header{
     border: black 5px solid;
     border-radius: 50px;
     padding-left: center;
@@ -14,10 +23,11 @@ body{
     box-shadow: black 2px 2px 5px;
     text-shadow: gray 10px 10px 10px;
     text-align: center;
+	
 }
 
-#conteudo{
-    background: white;
+div.conteudo{
+    background: #A9a9a9;
     margin-left: 5%;
     margin-right:5%;
     padding-left: 2%;
@@ -25,18 +35,42 @@ body{
     padding-top: 2%;
 }
 
-a{
-    color: blue;
-    text-decoration: none;
-    font-family:sans-serif;
+
+
+footer.Img{
+    width: 50px;
+    height: 50px;
 }
 
-#navbar{
+
+
+nav.navbar{
     display: flex;
-    justify-content: end;
     margin-top: 30px;
     margin-bottom: 10px;
+	text-align: center;
     gap: 20px;
+}
+
+div.itemMenu{
+ border: black 5px solid;
+    border-radius: 50px;
+    padding-left: center;
+    margin-bottom: 10px;
+    box-shadow: black 2px 2px 5px;
+    text-shadow: gray 10px 10px 10px;
+    text-align: center;
+	font-size: 30px ;
+	margin: 1%;
+	padding: 2%;
+	
+	
+}
+
+a.menu{
+	color: black;
+    text-decoration: none;
+    font-family:sans-serif;
 }
 
 #imgprincipal{
@@ -85,29 +119,14 @@ h3{
     font-size: 25px;
 }
 
-.descProduto{
+.desc{
     text-align: center;
     font-size: 20px;
 }
 
-#rodape{
-    display: flex;
-    justify-content:space-between;
-    background-color: lightgrey;
-    padding-top: 10px;
-}
 
-#redesSociais{
-    margin-left: 100px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    color: black;
-}
 
-.rede{
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
+
 
 #receba{
     margin-right: 100px;
@@ -138,7 +157,6 @@ button{
 }
 
 
-/* Estilo para a página "Sobre" */
 
 #nome{
     text-align: center;
@@ -175,6 +193,14 @@ button{
     align-items: center;
     padding-top: 5%;
 }
+.redeSocial{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
 
 #titulo{
     justify-content: center;
@@ -184,4 +210,12 @@ button{
     text-shadow: gray 10px 10px 10px ;
     font-size:200%
 
+}
+
+footer.rodape{
+    background: blue;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   
 }

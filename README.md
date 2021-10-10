@@ -1,1 +1,2 @@
-# Itau5_Equipe17
+# ItauTech
+Projeto em grupo realizado para programa "formação Itaú Tech" da Gama Academy
