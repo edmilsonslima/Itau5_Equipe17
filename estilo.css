@@ -7,7 +7,7 @@ html
 
 body{
     background-color: #808080;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 	   display: inline;
 		  margin-bottom: 0px;
 		 
@@ -30,6 +30,7 @@ div.conteudo{
     background: #A9a9a9;
     margin-left: 5%;
     margin-right:5%;
+    padding-bottom: 20px;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 2%;
@@ -70,31 +71,60 @@ div.itemMenu{
 a.menu{
 	color: black;
     text-decoration: none;
-    font-family:sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
+
+
 
 #imgprincipal{
     width: 100%;
     height: 60%;
 }
 
+
+#tituloTexto {
+
+    font-size: 30pt;
+    text-decoration-color: violet;
+    text-align: center;
+    font-weight: bold;
+    background-color:mediumseagreen
+    
+}
+
+
 #tituloDestaques{
     display: flex;
     justify-content: center;
     text-shadow: gray 10px 10px 10px ;
-    font-size:120%
+    font-size:120%;
+    text-decoration-style: solid;
+    
 }
 
-#noticias1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+
+
+.destaque{
+    
+    width:30%;
+    display:inline-block;
+    border: gray 4px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    Word-wrap: break-Word;
+    
+    
 }
 
-#noticias2{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+
+
+
+
+#noticias {
+
+    margin-top: 20px;
 }
 
 .noticiasDestaque{
@@ -105,13 +135,32 @@ a.menu{
     box-shadow: grey 5px 5px 5px;
 }
 .imgDestaque{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
     width: 250px;
     height: 250px;
-    margin-bottom: 5%;
     justify-content: center;
     align-items: center;
-    padding-left: 15%;
-    padding-top: 10%;
+    padding-top: 5%;
+
+
+    
+    
+
+    
+
+    
+    
+
+    
+
+
+    
+    
+    
 }
 
 h3{
@@ -119,10 +168,7 @@ h3{
     font-size: 25px;
 }
 
-.desc{
-    text-align: center;
-    font-size: 20px;
-}
+
 
 
 
@@ -158,41 +204,77 @@ button{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #nome{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
     text-align: center;
     margin-top: 10px;
     font-size: 120%;
 }
 
-#perfil{
-    border: grey 1px solid;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 10px;
-    box-shadow: grey 5px 5px 5px;
-  
-}
-#sobre1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.desc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    font-size: 20px;
 }
 
-#sobre2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+.perfil{
+
+    border: gray 4px solid;
+    background:silver;
+ 
+    margin-bottom: 70px;
+    Word-wrap: break-Word; 
 }
+
+#sobre{
+
+    width:50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+   
+   
+
+   
+    
+}
+
+
+
+
 
 .foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
     width: 250px;
     height: 250px;
     justify-content: center;
     align-items: center;
     padding-top: 5%;
 }
+
+
 .redeSocial{
     width: 50px;
     height: 50px;
@@ -200,6 +282,9 @@ button{
     align-items: center;
     padding-top: 5%;
 }
+
+
+
 
 
 #titulo{
@@ -213,9 +298,43 @@ button{
 }
 
 footer.rodape{
-    background: blue;
-   display: flex;
-   align-items: center;
-   text-align: center;
+    display: flex;
+    justify-content:space-between;
+    background-color: cornflowerblue;
+    padding-top: 10px;
+    margin-top: 50px;
    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo para as páginas das notícias "destaque_1, destaque_2 etc" */
+
+
+.containerNoticia{
+margin-left: 10%;
+margin-right: 10%;
+font-size: 14pt;
+}
+
+#tituloDestaque {
+
+    text-align: center;
+    color:blue;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+.video {
+    
+    display: block;
+    margin: 0 auto;
 }
