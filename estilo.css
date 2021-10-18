@@ -10,10 +10,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 	   display: inline;
 		  margin-bottom: 0px;
-		 
-
-
 }
+
 
 header{
     border: black 5px solid;
@@ -23,7 +21,6 @@ header{
     box-shadow: black 2px 2px 5px;
     text-shadow: gray 10px 10px 10px;
     text-align: center;
-	
 }
 
 div.conteudo{
@@ -36,15 +33,6 @@ div.conteudo{
     padding-top: 2%;
 }
 
-
-
-footer.Img{
-    width: 50px;
-    height: 50px;
-}
-
-
-
 nav.navbar{
     display: flex;
     margin-top: 30px;
@@ -54,33 +42,22 @@ nav.navbar{
 }
 
 div.itemMenu{
- border: black 5px solid;
-    border-radius: 50px;
-    padding-left: center;
-    margin-bottom: 10px;
-    box-shadow: black 2px 2px 5px;
-    text-shadow: gray 10px 10px 10px;
-    text-align: center;
-	font-size: 30px ;
-	margin: 1%;
-	padding: 2%;
-	
-	
+    border: black 5px solid;
+       border-radius: 50px;
+       padding-left: center;
+       margin-bottom: 10px;
+       box-shadow: black 2px 2px 5px;
+       text-shadow: gray 10px 10px 10px;
+       text-align: center;
+       font-size: 30px ;
+       margin: 1%;
+       padding: 2%;
 }
-
-a.menu{
-	color: black;
-    text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-
 
 #imgprincipal{
     width: 100%;
     height: 60%;
 }
-
 
 #tituloTexto {
 
@@ -88,10 +65,9 @@ a.menu{
     text-decoration-color: violet;
     text-align: center;
     font-weight: bold;
-    background-color:mediumseagreen
+    background-color:mediumaquamarine
     
 }
-
 
 #tituloDestaques{
     display: flex;
@@ -102,8 +78,10 @@ a.menu{
     
 }
 
+#noticias {
 
-
+    margin-top: 20px;
+}
 
 .destaque{
     
@@ -114,26 +92,8 @@ a.menu{
     margin-right: 10px;
     margin-top: 10px;
     Word-wrap: break-Word;
-    
-    
 }
 
-
-
-
-
-#noticias {
-
-    margin-top: 20px;
-}
-
-.noticiasDestaque{
-    border: grey 1px solid;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 10px;
-    box-shadow: grey 5px 5px 5px;
-}
 .imgDestaque{
     
     display: block;
@@ -145,78 +105,73 @@ a.menu{
     justify-content: center;
     align-items: center;
     padding-top: 5%;
-
-
-    
-    
-
-    
-
-    
-    
-
-    
-
-
-    
-    
-    
 }
 
-h3{
+.descProduto {
+
     text-align: center;
-    font-size: 25px;
+
+}
+
+a.menu{
+	color: black;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+footer.rodape{
+    display: fle;
+    background-color:mediumaquamarine;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+#redesSociais{
+    font-size: 10pt;
 }
 
 
+.rede{
 
-
-
-
-
-#receba{
-    margin-right: 100px;
+    width: 30%;
+}
     
-}
-#email{
+    
+    
+    
+
+
+
+
+/* Estilo para a página "Sobre" */
+
+
+#titulo{
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    display: flex;
     text-shadow: gray 10px 10px 10px ;
-    margin-right: 30px;
+    font-size:200%
 }
 
-input{
-    width: 80%;
-    height: 30px;
-    margin-bottom: 10px;
-    border: black 2px solid;
-    border-radius: 10px;
-    box-shadow: gray 5px 5px 5px;
+#sobre{
+
+    width:50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
-button{
-    width: 20%;
-    height: 30px;
-    margin-bottom: 20px;
-    background-color: white;
-    border: black 2px solid;
-    border-radius: 10px;
-    box-shadow: gray 5px 5px 5px;
+.perfil{
+
+    text-align: center;
+    border: gray 4px solid;
+    background:silver;
+ 
+    margin-bottom: 70px;
+    Word-wrap: break-Word; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #nome{
@@ -228,39 +183,6 @@ button{
     margin-top: 10px;
     font-size: 120%;
 }
-
-.desc{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 20px;
-}
-
-.perfil{
-
-    border: gray 4px solid;
-    background:silver;
- 
-    margin-bottom: 70px;
-    Word-wrap: break-Word; 
-}
-
-#sobre{
-
-    width:50%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-   
-   
-
-   
-    
-}
-
-
-
-
 
 .foto{
     display: block;
@@ -274,36 +196,43 @@ button{
     padding-top: 5%;
 }
 
+.desc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+}
 
-.redeSocial{
-    width: 50px;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5%;
+a.linkedin{
+
+    font-weight: bold;
 }
 
 
 
 
 
-#titulo{
-    justify-content: center;
-    align-items: center;
-    padding-left: 2%;
-    display: flex;
-    text-shadow: gray 10px 10px 10px ;
-    font-size:200%
 
-}
 
-footer.rodape{
-    display: flex;
-    justify-content:space-between;
-    background-color: cornflowerblue;
-    padding-top: 10px;
-    margin-top: 50px;
-   
+
+
+
+
+
+
+
+/* Estilo para a página " SAIBA MAIS" */
+
+#tituloFontes{
+
+    text-align: center;
+    font-size: 22pt;
+    color:blue;
+    font-weight: bold;
+
+
+    
 }
 
 
@@ -320,21 +249,79 @@ footer.rodape{
 
 
 .containerNoticia{
-margin-left: 10%;
-margin-right: 10%;
-font-size: 14pt;
-}
-
-#tituloDestaque {
-
-    text-align: center;
-    color:blue;
-    font-weight: bold;
-    font-size: 25pt;
-}
-
-.video {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 14pt;
+    }
     
-    display: block;
-    margin: 0 auto;
-}
+    #tituloDestaque {
+    
+        text-align: center;
+        color:blue;
+        font-weight: bold;
+        font-size: 25pt;
+    }
+    
+    .video {
+        
+        display: block;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
